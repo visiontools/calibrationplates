@@ -1,8 +1,8 @@
 LATEX= pdflatex
 
-all: A4_checkboard_1cm.pdf \
-	A4_checkboard_2cm.pdf \
-	A4_checkboard_3cm.pdf \
+all: A4_checkerboard_1cm.pdf \
+	A4_checkerboard_2cm.pdf \
+	A4_checkerboard_3cm.pdf \
 	A4_squares_1cm.pdf \
 	A4_squares_2cm.pdf \
 	A4_squares_3cm.pdf \
