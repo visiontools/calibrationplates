@@ -1,0 +1,33 @@
+\documentclass{book}
+
+\pagenumbering{gobble}
+
+\usepackage[a4paper,
+hmargin=0mm,
+vmargin=0mm,
+headheight=0mm,
+headsep=0mm,
+marginparwidth=0mm,
+marginparsep=0mm,
+bindingoffset=0mm,
+paperwidth=210mm,
+paperheight=297mm
+]{geometry}  
+
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+\begin{document}
+\def\hi{8cm}
+\noindent
+\vspace*{\fill}
+\begin{center}
+    \begin{tikzpicture}[x=1cm,y=1cm]
+        \foreach \x in {1,...,4}
+        \foreach \y in {1,...,5}{
+            \filldraw (4.5*\x,4.5*\y) circle (1.5cm);
+        }
+    \end{tikzpicture}
+\end{center}
+\vspace*{\fill}
+\end{document}
